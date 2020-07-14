@@ -1,0 +1,40 @@
+
+.header{
+    background-image: url("bg1.jpg");
+}
+
+.menu{
+    display : flex;
+    justify-content: space-evenly;
+    padding : 15px;
+}
+body{
+    margin : 10px;
+    background-color : #ffffff;
+}
+.footer {
+    display : flex;
+}
+.image:hover{
+    transform : scale(1.2);
+}
+.image:hover p{
+    opacity : 0;
+}
+.image p{
+    justify-content: space-evenly;
+    position : absolute;
+    top : 900px;
+}
+.image img{
+    position : relative;
+}
+.menu a{
+    text-decoration: none;
+}
+.menu a:link{
+    color : black;
+}
+.menu a:visited{
+    color : black;
+}
